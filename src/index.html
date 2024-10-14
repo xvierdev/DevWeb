@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Studying tables</title>
+    <style>
+        table{
+            width: 80%;
+            margin: auto;
+        }
+
+        .table1 tr:nth-child(even){
+            background-color: #d6eeee;
+        }
+
+        .table1 td:nth-child(odd), th:nth-child(odd){
+            background-color: orange;
+        }
+
+        .table2,
+        .table2 th,
+        .table2 td
+        {
+            border: 3px solid black;
+            border-collapse: collapse;
+            border-style: double;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .table2 tr:nth-child(odd){
+            background-color: aqua;
+        }
+
+        .table2 th:nth-child(odd),
+        .table2 td:nth-child(odd)
+        {
+            background-color: gainsboro;
+            /* color: yellow; */
+        }
+
+        caption{
+            font-family: 'Monotype Corsiva';
+            font-size: xx-large;
+            text-shadow: 0px 0px 2px goldenrod ;
+        }
+    </style>
+</head>
+<body>
+    <table class="table1">
+        <caption>People Attribute</caption>
+        <tr>
+            <th>Name</th>
+            <th>Attribute</th>
+        </tr>
+        <tr>
+            <td>Jefferson</td>
+            <td>Long Hair</td>
+        </th>
+        <tr>
+            <td>Giovana</td>
+            <td>Small body size and big knowledge</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>Great carism</td>
+        </tr>
+        <tr>
+            <td>Adriano</td>
+            <td>grande experiencia com educação</td>
+        </tr>
+    </table>
+
+    <table class="table2">
+        <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Sea Shell</td>
+            <td>Beautifull sea shell</td>
+            <td>289</td>
+            <td>$ 29.75</td>
+        </tr>
+        <tr>
+            <td>Moon Stone</td>
+            <td>Round moonstone</td>
+            <td>1258</td>
+            <td>$ 9.71</td>
+        </tr>
+    </table>
+</body>
+</html>
