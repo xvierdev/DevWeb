@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 2</title>
+    <style>
+        table, th, tr, td{
+            margin: auto;
+            border: 5px orchid;
+            border-collapse: collapse;
+            border-style: double;
+            padding: 10px;
+            text-align: left;
+        }
+        caption{
+            font-family: 'Monotype Corsiva';
+            font-size: 20pt;
+            color: pink;
+            text-shadow: 0px 0px 2px black;
+        }
+        .emphasis1{
+            background-color: pink;
+        }
+        .emphasis2{
+            background-color: papayawhip;
+        }
+        th:hover, td:hover{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Woman Fashion Clothes</caption>
+        <colgroup>
+            <col span="2" class="emphasis1">
+            <col span="1">
+            <col span="1" class="emphasis2">
+            <col span="1" style="visibility: collapse;">
+        </colgroup>
+        <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Color</th>
+            <th>Size</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Shirt</td>
+            <td>Women's fashion t-shirt</td>
+            <td>Wine red</td>
+            <td>P</td>
+            <td>$ 58.75</td>
+        </tr>
+        <tr>
+            <td>Pants</td>
+            <td>Fashion shiny pants</td>
+            <td>Dark red</td>
+            <td>M</td>
+            <td>$ 98.22</td>
+        </tr>
+        <tr>
+            <td>High Heels</td>
+            <td>Modern high heels</td>
+            <td>Gloss red</td>
+            <td>5cm</td>
+            <td>$ 113.79</td>
+        </tr>
+        <tr>
+            <td>Bag</td>
+            <td>Modern fashion bag</td>
+            <td>Gloss dark red</td>
+            <td>Small</td>
+            <td>$ 125.35</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

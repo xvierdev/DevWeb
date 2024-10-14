@@ -28,6 +28,7 @@
             padding: 10px;
             margin-top: 20px;
         }
+
         .table2 tr:nth-child(odd){
             background-color: aqua;
         }
@@ -43,6 +44,33 @@
             font-family: 'Monotype Corsiva';
             font-size: xx-large;
             text-shadow: 0px 0px 2px goldenrod ;
+        }
+
+        .table3{
+            border-collapse: collapse;
+            text-align: center;
+            font-size: large;
+            margin-top: 20px;
+        }
+
+        .table3 th{
+            text-transform: uppercase;
+        }
+
+        .table3 tr, .table3 th, .table3 td{
+            border-bottom: 1px solid #ddd;
+            /* padding: 10px; */
+        }
+
+        .table3 th:nth-child(odd){
+            background-color: white;
+        }
+
+        .table3 td:hover,
+        .table3 th:hover,
+        .table3 tr:hover
+        {
+            background-color: #d6eeee;
         }
     </style>
 </head>
@@ -89,6 +117,35 @@
             <td>Round moonstone</td>
             <td>1258</td>
             <td>$ 9.71</td>
+        </tr>
+    </table>
+
+    <table class="table3">
+        <caption>Clothes</caption>
+        <tr>
+            <th>item</th>
+            <th>id</th>
+            <th>price</th>
+        </tr>
+        <tr>
+            <td>bra</td>
+            <td>1</td>
+            <td>$ 15.79</td>
+        </tr>
+        <tr>
+            <td>sandal</td>
+            <td>2</td>
+            <td>$ 22.78</td>
+        </tr>
+        <tr>
+            <td>panties</td>
+            <td>3</td>
+            <td>$ 11.89</td>
+        </tr>
+        <tr>
+            <td>gloves</td>
+            <td>4</td>
+            <td>$ 10.19</td>
         </tr>
     </table>
 </body>
