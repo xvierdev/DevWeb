@@ -2,5 +2,11 @@
 
 This codes is result of study at w3schools.
 
-### References  
-[W3Schools table style](https://www.w3schools.com/html/html_table_styling.asp)
+### Progress
+
+* HTML **60%**  
+* CSS **10%**  
+* JAVASCRIPT **0%**  
+
+### :books: References  
+[W3Schools](https://www.w3schools.com/html/)
