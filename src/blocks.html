@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        #iam{
+            margin: auto;
+            width: 300px;
+            height: 100px;
+            align-content: center;
+            background-color: aquamarine;
+            text-align: center;
+            font-style: italic;
+            font-size: 50px;
+            font-family: 'Monotype Corsiva';
+            border-radius: 20px;
+            border: 2px dashed black;
+            color:orangered;
+        }
+        #iam:hover{
+            background-color: aqua;
+        }
+        hr{
+            border: 1px solid black;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .container{
+            width: 100%;
+            overflow: auto;
+            font-family: 'Segoe Ui';
+            font-size: 30px;
+            font-style: italic;
+            font-weight: 400;
+            color:pink;
+            text-shadow: 0px 0px 3px purple;
+        }
+        .container > div{
+            height: 40px;
+            width: 33%;
+            float: left;
+            text-align: center;
+            align-content: center;
+        }
+        .inline{
+            display: inline-block;
+            height: 30px;
+            width: 33%;
+            text-align: center;
+            margin-top: 50px;
+            background-color: burlywood;
+            align-content: center;
+        }
+        .fcontainer{
+            display: flex;
+        }
+        .fcontainer > div{
+            width: 25%;
+            height: 40px;
+            align-content:center;
+            text-align: center;
+        }
+        #d1, #d3{
+            background-color: darkgray;
+        }
+        #d2, #d4{
+            background-color: azure;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+        }
+        .grid-container > div{
+            text-align: center;
+            background-color: black;
+            color: yellow;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <p>Hello World!</p>
+    <div>Hello World!</div>
+    <span>Hello World!</span>
+
+    <h1>Title of Div</h1>
+    <div id="iam">
+        I'm a div!
+    </div>
+    <hr>
+
+    <div class="container">
+        <div>Beautifull</div>
+        <div>Gloss</div>
+        <div>Elegance</div>
+    </div>
+
+    <div class="inline">
+        inline:block
+    </div>
+    <div class="inline">
+        inline:block
+    </div>
+    <div class="inline">
+        inline:block
+    </div>
+
+    <hr>
+    <h1>Div with Flex</h1>
+    <div class="fcontainer">
+        <div id="d1">Data</div>
+        <div id="d2">Analytics</div>
+        <div id="d3">Scientist</div>
+        <div id="d4">Math</div>
+    </div>
+    
+    <hr>
+    <h1>Grid Container</h1>
+    <div class="grid-container">
+        <div>Almost</div>
+        <div>There</div>
+        <div>Should</div>
+        <div>Sourround</div>
+        <div>Around</div>
+    </div>
+    
+    
+    
+</body>
+</html>
