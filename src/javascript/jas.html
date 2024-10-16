@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, javascript">
+    <meta name="description" content="Estudo de caso de javascript">
+    <meta name="author" content="Wesley Xavier">
+    <meta http-equiv="refresh" content="30">
+    <title>Document</title>
+    <script>
+        function showdate (){
+            document.getElementById('demo').innerHTML = Date();
+        }
+        function showMsg(){
+            document.getElementById('msg').innerHTML = 'Meu jovem padawan!';
+        }
+        function modifyStyles(){
+            // alert('hehe');
+            document.getElementById('msg').style.color = 'red';
+        }
+        function setImage(){
+            if (document.getElementById('imgbox').src === './images/jade.webp'){
+                document.getElementById('imgbox').src = './images/flor-de-cera.jpg';
+            } else {
+                document.getElementById('imgbox').src = './images/jade.webp';
+            }
+        }
+    </script>
+    <noscript>Sorry, your browser don't support javascript!</noscript>
+</head>
+<body>
+    <button onclick="showdate()">Click-me</button>
+    <button onclick="showMsg()">Show Message</button>
+    <button onclick="modifyStyles()">Modify</button>
+    <button onclick="setImage()">Set image</button>
+
+    <p id="demo" class="obj"></p>
+    <p id="msg" class="obj"></p>
+
+    <div>
+        <img src="./images/flor-de-cera.jpg" style="width: 250px;" id="imgbox">
+    </div>
+    
+</body>
+</html>
