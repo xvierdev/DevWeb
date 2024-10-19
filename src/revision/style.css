@@ -1,0 +1,48 @@
+body{
+    background-color: lightblue;
+}
+
+/* Background */
+#ex1{
+    background-color: aqua;
+    opacity: 0.4;
+}
+
+#ex2{
+    background-color: rgba(255,255,0,0.2);
+    color: hsla(0, 100%, 50%, 1);
+}
+
+#ex3{
+    /* Text */
+    color: white;
+    text-align: center;
+    font-family: serif;
+    font-size: xx-large;
+    /*End text */
+    align-content: center;
+    background-image: url("./images/small-flowers1.jpg");
+    width: 500px;
+    height: 500px;
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-color: aqua;
+    background-repeat: no-repeat;
+    /* background-position: right left;; */
+    /* background-attachment: fixed; */
+    /* background-attachment: scroll|fixed|local|initial|inherit; */
+}
+
+#ex4{
+    background: #f60 url("./images/maçaranduba1.jfif") no-repeat right top;
+    width: 750px;
+    height: 550px;
+}
+
+/*End background */
+
+/* border : dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden */
+/* boder-width: medium thick*/
+/* border-color: name, hex, rgb, hls.*/
+/* border-style or border-top|right|botton|left-style */
