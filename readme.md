@@ -4,9 +4,9 @@ This codes is result of study at w3schools.
 
 ### Progress
 
-* HTML **60%**  
+* HTML **70%**  
 * CSS **10%**  
-* JAVASCRIPT **0%**  
+* JAVASCRIPT **1%**  
 
 ### :books: References  
 [W3Schools](https://www.w3schools.com/html/)
