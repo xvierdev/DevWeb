@@ -61,5 +61,71 @@ body{
 }
 
 #ex6{
-    outline-style: groove;
+    margin: 20px;
+    outline: 10px groove blueviolet;
+    outline-offset: 10px;
+    border: 1px dotted black;
+    /* outline-color: blueviolet; */
+    /* outline-style: groove; */
+    /* outline-width: thick; */
+    /* outline-width: 10px; */
+    /* outline-width: thin; */
+    /* outline-width: medium; */
+}
+
+#ex7{
+    color:crimson;
+    text-align: justify;
+    text-align-last: right;
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+    /* text-decoration-style: wavy; */
+    /* text-decoration-color: orange; */
+    /* text-decoration-thickness: 4px; */
+    text-decoration: line-through rgba(255, 200, 0, 0.5) wavy 3px;
+    text-transform: uppercase;
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+}
+
+#ex8{
+    letter-spacing: 3px;
+    line-height: 2;
+    text-indent: 20px;
+    /* white-space: nowrap; */
+    word-spacing: 20px;
+}
+
+#ex9{
+    font-size: xx-large;
+    /* font-style: italic; */
+    /* font-style: oblique; */
+    /* font-weight: normal; */
+    /* font-weight: lighter; */
+    /* font-weight: bolder; */
+    /* font-weight: bold; */
+    /* font-variant: small-caps; */
+}
+
+#p1{
+    font-family: serif;
+}
+#p2{
+    /* font-family: sans-serif; */
+    font-family: cursive;
+}
+#p3{
+    /* font-family: monospace; */
+    font-family: fantasy;
+}
+
+#ex10{
+    font-family: Sofia;
+    font-size: 5vw;
+    text-transform: capitalize;
+}
+
+#ex11{
+    font: oblique bold 30px/1.5 'Times new roman', serif;
 }
