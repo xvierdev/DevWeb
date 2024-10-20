@@ -46,3 +46,20 @@ body{
 /* boder-width: medium thick*/
 /* border-color: name, hex, rgb, hls.*/
 /* border-style or border-top|right|botton|left-style */
+
+#ex5{
+    margin: 20px;
+    padding: 20px;
+    border: 20px solid dodgerblue;
+    background-color: brown;
+    color: white;
+    max-width: 600px;
+    height: 200px;
+    align-content: center;
+    text-align: center;
+    font-size: 10vw;
+}
+
+#ex6{
+    outline-style: groove;
+}
