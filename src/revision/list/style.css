@@ -8,10 +8,34 @@
     list-style-type: upper-roman;
 }
 .d{
-    list-style-type: lower-alpha;
-    border: 2px solid black;
+    /* list-style-type: lower-alpha; */
+    /* border: 2px solid black; */
+    /* list-style-type: none; */
+    /* padding: 0; */
+    /* margin: 0; */
+    list-style: square inside url('./images/sqpurple.gif');
+}
+.e{
+    list-style-image: url(./images/sqpurple.gif);
 }
 .insedeposition{
     list-style-position: inside;
     /* list-style-position: outside; */
+}
+ol{
+    background: orange;
+    padding: 20px;
+}
+ul{
+    background: red;
+    padding: 20px;
+}
+ol li{
+    background: red;
+    padding: 5px;
+    margin: 5px;
+}
+ul li{
+    background-color: violet;
+    margin: 5px;
 }
